@@ -22,10 +22,10 @@ class MyDocument extends Document {
           <meta property="og:description" content={meta.description} />
           <meta property="og:title" content={meta.title} />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="image" content={image} />
-          <meta itemProp="image" content={image} />
-          <meta name="twitter:image" content={image} />
-          <meta property="og:image" content={image} />
+          <meta name="image" content={meta.image} />
+          <meta itemProp="image" content={meta.image} />
+          <meta name="twitter:image" content={meta.image} />
+          <meta property="og:image" content={meta.image} />
         </Head>
         <body>
           <Main />
