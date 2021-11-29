@@ -3,8 +3,8 @@ lockfileVersion: 5.3
 specifiers:
   gray-matter: ^4.0.2
   next: latest
-  nextra: ^2.0.0-beta.2
-  nextra-theme-blog: ^2.0.0-beta.2
+  nextra: ^2.0.0-beta.3
+  nextra-theme-blog: ^2.0.0-beta.3
   react: ^17.0.2
   react-dom: ^17.0.2
   rss: ^1.2.2
@@ -12,8 +12,8 @@ specifiers:
 dependencies:
   gray-matter: 4.0.3
   next: 12.0.4_react-dom@17.0.2+react@17.0.2
-  nextra: 2.0.0-beta.2_react@17.0.2
-  nextra-theme-blog: 2.0.0-beta.2_f195614718841b3c14a81ac95268ce58
+  nextra: 2.0.0-beta.3_react@17.0.2
+  nextra-theme-blog: 2.0.0-beta.3_f195614718841b3c14a81ac95268ce58
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   rss: 1.2.2
@@ -2566,8 +2566,8 @@ packages:
       - webpack
     dev: false
 
-  /nextra-theme-blog/2.0.0-beta.2_f195614718841b3c14a81ac95268ce58:
-    resolution: {integrity: sha512-tx4Hei+XCESdsi2exJ45V2YIfGF/TcMbsyeEFoOhzN9va+0u+1aMeVKv/xtVd8WptZ9CyhS4wZXmnscAbjW2jA==}
+  /nextra-theme-blog/2.0.0-beta.3_f195614718841b3c14a81ac95268ce58:
+    resolution: {integrity: sha512-zRPlhn4N2/8ExYBOlChntWUzmwOrhJvp9ZEpCPwqT6ziJnOznFdwm01D5bAyhPSZLnk7Kz1ghtZ+7PYUpU2xKg==}
     peerDependencies:
       next: '>=9.5.3'
       react: '>=16.13.1'
@@ -2586,8 +2586,8 @@ packages:
       - tailwindcss
     dev: false
 
-  /nextra/2.0.0-beta.2_react@17.0.2:
-    resolution: {integrity: sha512-rFr1zQat8Ciw5FUw2y9pcaxuIz+M31+zb92W9mYLw/r1zzeYjSaHel4BScHKnGx3TAtf7X+2at5prejbulZrLA==}
+  /nextra/2.0.0-beta.3_react@17.0.2:
+    resolution: {integrity: sha512-GTwFTPhWm6LG2KDt8dgRBqx9S2Zx1eN9RfTmLY0kUazGWiQJlPXDwtcmjfj3ZXq2qBByU/9NnU/m2YynPJlAIg==}
     peerDependencies:
       react: '>=16.13.1'
     dependencies:
