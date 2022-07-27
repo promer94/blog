@@ -9,12 +9,12 @@
     "start": "next start"
   },
   "dependencies": {
-    "gray-matter": "^4.0.2",
+    "gray-matter": "^4.0.3",
     "next": "latest",
     "nextra": "2.0.0-beta.10",
     "nextra-theme-blog": "2.0.0-beta.10",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rss": "^1.2.2"
   },
   "prettier": {

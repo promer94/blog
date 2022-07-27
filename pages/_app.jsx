@@ -4,6 +4,7 @@ import Head from 'next/head'
 import '../styles/main.css'
 
 export default function Nextra({ Component, pageProps }) {
+  const getLayout = Component.getLayout || ((page) => page)
   return (
     <>
       <Head>
@@ -21,7 +22,7 @@ export default function Nextra({ Component, pageProps }) {
           crossOrigin="anonymous"
         />
       </Head>
-      <Component {...pageProps} />
+      {getLayout(<Component {...pageProps} />)}
     </>
   )
 }

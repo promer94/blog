@@ -4,7 +4,7 @@ specifiers:
   gray-matter: ^4.0.2
   next: latest
   nextra: 2.0.0-beta.10
-  nextra-theme-blog: 2.0.0-beta.10
+  nextra-theme-blog: file:.yalc/nextra-theme-blog
   react: ^17.0.2
   react-dom: ^17.0.2
   rss: ^1.2.2
@@ -13,7 +13,7 @@ dependencies:
   gray-matter: 4.0.3
   next: 12.2.3_sfoxds7t5ydpegc3knd667wn6m
   nextra: 2.0.0-beta.10_react@17.0.2
-  nextra-theme-blog: 2.0.0-beta.10_lomk7fwgwcwgv5os6tnu5kl3ge
+  nextra-theme-blog: file:.yalc/nextra-theme-blog_lomk7fwgwcwgv5os6tnu5kl3ge
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   rss: 1.2.2
@@ -1230,21 +1230,6 @@ packages:
       - babel-plugin-macros
     dev: false
 
-  /nextra-theme-blog/2.0.0-beta.10_lomk7fwgwcwgv5os6tnu5kl3ge:
-    resolution: {integrity: sha512-cBrdKMHuxhx06LID01pIPg09W6dXjFSdbHRiG6sxbVRf600A2TNJ+F3kYauXm21HV6VGPtVGOqW48a1tdHy+VA==}
-    peerDependencies:
-      next: '>=9.5.3'
-      react: '>=16.13.1'
-      react-dom: '>=16.13.1'
-    dependencies:
-      '@mdx-js/react': 2.1.2_react@17.0.2
-      next: 12.2.3_sfoxds7t5ydpegc3knd667wn6m
-      next-themes: 0.2.0_lomk7fwgwcwgv5os6tnu5kl3ge
-      react: 17.0.2
-      react-cusdis: 2.1.3_sfoxds7t5ydpegc3knd667wn6m
-      react-dom: 17.0.2_react@17.0.2
-    dev: false
-
   /nextra/2.0.0-beta.10_react@17.0.2:
     resolution: {integrity: sha512-1PaHnCRT6oFqdmzl8HH6QWUTDi1rzBjEUmFOAQa74F2mb3ZBHPph2FLksZ/lvg8EKkMD2PgSMSpLcYgHLomTTw==}
     peerDependencies:
@@ -1648,4 +1633,22 @@ packages:
 
   /zwitch/2.0.2:
     resolution: {integrity: sha512-JZxotl7SxAJH0j7dN4pxsTV6ZLXoLdGME+PsjkL/DaBrVryK9kTGq06GfKrwcSOqypP+fdXGoCHE36b99fWVoA==}
+    dev: false
+
+  file:.yalc/nextra-theme-blog_lomk7fwgwcwgv5os6tnu5kl3ge:
+    resolution: {directory: .yalc/nextra-theme-blog, type: directory}
+    id: file:.yalc/nextra-theme-blog
+    name: nextra-theme-blog
+    version: 2.0.0-beta.10
+    peerDependencies:
+      next: '>=9.5.3'
+      react: '>=16.13.1'
+      react-dom: '>=16.13.1'
+    dependencies:
+      '@mdx-js/react': 2.1.2_react@17.0.2
+      next: 12.2.3_sfoxds7t5ydpegc3knd667wn6m
+      next-themes: 0.2.0_lomk7fwgwcwgv5os6tnu5kl3ge
+      react: 17.0.2
+      react-cusdis: 2.1.3_sfoxds7t5ydpegc3knd667wn6m
+      react-dom: 17.0.2_react@17.0.2
     dev: false
