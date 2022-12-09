@@ -9,6 +9,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@next/font": "^13.0.6",
     "@vercel/analytics": "^0.1.6",
     "@vercel/og": "^0.0.21",
     "gray-matter": "^4.0.3",
