@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "@promer94/blog",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -9,10 +9,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "@vercel/analytics": "^0.1.6",
+    "@vercel/og": "^0.0.21",
     "gray-matter": "^4.0.3",
     "next": "latest",
-    "nextra": "2.0.0-beta.13",
-    "nextra-theme-blog": "2.0.0-beta.13",
+    "nextra": "2.0.1",
+    "nextra-theme-blog": "2.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rss": "^1.2.2"

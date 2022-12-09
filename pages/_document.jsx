@@ -1,18 +1,12 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 class MyDocument extends Document {
-  static async getInitialProps(ctx) {
-    const initialProps = await Document.getInitialProps(ctx)
-    return { ...initialProps }
-  }
-
   render() {
     const meta = {
       title: "Yixuan's Blog",
       description: 'Some random thoughts',
       image: 'https://blog.yixuanxu.com/images/og.png'
     }
-
     return (
       <Html lang="en">
         <Head>

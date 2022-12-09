@@ -3,13 +3,13 @@ const path = require('path')
 const RSS = require('rss')
 const matter = require('gray-matter')
 
+// @TODO: for now let's generate with all posts, unsorted
 async function generate() {
   const feed = new RSS({
-    title: 'Your Name',
-    site_url: 'https://yoursite.com',
-    feed_url: 'https://yoursite.com/feed.xml'
+    title: `YixuanXu's Blog`,
+    site_url: 'https://blog.yixuanxu.com',
+    feed_url: 'https://blog.yixuanxu.com/feed.xml'
   })
-
   const posts = await fs.readdir(path.join(__dirname, '..', 'pages', 'posts'))
 
   await Promise.all(
@@ -26,7 +26,6 @@ async function generate() {
         url: '/posts/' + name.replace(/\.mdx?/, ''),
         date: frontmatter.data.date,
         description: frontmatter.data.description,
-        categories: frontmatter.data.tag.split(', '),
         author: frontmatter.data.author
       })
     })

@@ -1,6 +1,8 @@
 const YEAR = new Date().getFullYear()
 
+/** @type import('nextra-theme-blog').NextraBlogTheme */
 export default {
+  darkMode: true,
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
       <time>{YEAR}</time> © Yixuan Xu.
